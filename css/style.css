@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=Nunito:wght@200;300;400;700&family=Open+Sans:wght@300;500;600;700&family=Red+Rose:wght@300&family=Secular+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+    background-color: rgb(16, 16, 16);
+}
+.cselect::after {
+ content: "\25b6"; 
+color:#fff;
+transform: rotate(90deg);
+display: inline-block
+}
+
+nav{
+ 
+   margin-right: 180px;
+    margin-top: 29px;
+    cursor: pointer;
+   float: right;
+   
+}
+
+.nav-item{
+    padding-right: 50px;
+    color:#fff;
+    font-weight: 300;
+}
+.logo{
+    margin-top: 25px;
+    margin-left: 95px;
+
+}
+.container {
+   
+ 
+  }
+.navbar-extend .container{
+    display: flex;
+  
+  
+  }
+
+  .navbar-right{
+    margin-left: 30px;
+
+    display: flex;
+   
+    justify-content: center;
+    flex-direction: column;
+ 
+ width: 60vh;
+   margin-bottom: 80px;
+
+  }
+  .nav-img1{
+    margin-left: 58px;
+  }
+  .red-btn{
+    margin-top: 20px;
+    font-size: 16px;
+    background-color:#C91B28;
+    color:#fff;
+    padding: 15px 35px 15px 35px;
+  }
+  .navbar-right h5{
+    font-size: 20px;
+    color:#C91B28;
+  }
+  .navbar-right h1{
+    font-size: 67px;
+    white-space: nowrap;
+    color:#fff;
+  }
+  .navbar-right h4{
+    color:#fff;
+    font-weight: 200;
+  }
+  .light-black{
+    position: relative;
+    left:0px;
+    width: 100vh;
+    height: 120vh;
+    background-color: #282828;
+  
+  }
+  .card-active{
+    position: absolute;
+   
+    top:80px;
+    left:230px;
+    width: 36%;
+    height: 250px;
+ 
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.pricing-section h1{
+  font-size: 50px;
+  color:#ffffff;
+  text-align: center;
+  margin-left: 70px;
+  padding-top: 75px;
+}
+.card{
+
+margin-left: 20px;
+  width: 310px;
+  height: 330px;
+  background-color: #303030;
+  border-radius: 10px;
+}
+.card:nth-child(2){
+  background-color: #cb2c2c;
+}
+.card .know-more:nth-of-type(2){
+  background-color: transparent;
+  color: #fff;
+ 
+}
+
+.first-cards{
+  background-color: transparent;
+  position: absolute;
+  top:610px;
+  display: flex;
+  width: 100%;
+  margin-left: 220px;
+  margin-top: 40px;
+}
+.card-title{
+
+  padding-top: 30px;
+  font-size: 30px;
+  margin-left: 30px;
+  
+}
+.card-desc{
+
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: 17px;
+  color:#758283;
+  font-weight: lighter;
+ line-height: 30px;
+}
+/* position: relative;
+  top: 20px; */
+.plan-features{
+  margin-left: 60px;
+  margin-top: 50px;
+  list-style-type:none;
+  line-height: 50px;
+}
+.per-month{
+  margin-left: 82px;
+  margin-top: 75px;
+}
+.per-month h2{
+  font-size: 30px;
+}
+.per-month span{
+  color:#758283;
+}
+.per-month h4{
+  margin-left: 30px;
+  margin-top: 10px;
+  color:#758283;
+}
+.permonthbutton{
+  margin-left: 15px;
+  margin-top: 40px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  
+  background-color: #FFFFFF;
+  padding: 13px 50px 13px 50px;
+  border: 2px solid #1B98F5;
+  font-weight: normal;
+  text-transform: uppercase;
+  box-shadow:  #1B98F5;
+  color:#1B98F5;
+  border-radius: 5px;
+}
+.pricing-section .row{
+  display: flex;
+}
+.permonthbuttonspecial{
+  text-decoration: none;
+  color: #ffffff;
+  margin-top: 40px;
+  background: linear-gradient( rgb(45, 85, 255),rgb(84, 77, 231));
+  padding: 13px 50px 13px 50px;
+  border: 2px solid #383CC1;
+  font-weight: normal;
+  text-transform: uppercase;
+ 
+  border-radius: 5px;
+}
+.special{
+ background-color: #242B2E;
+ border-radius: 5px;
+}
+.speciatitle{
+  color:#ffffff
+}
+.circlebox{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: flex-start;
+  background-color: transparent;
+}
+.card-head-active{
+  color:#fff;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  font-size: 28px;
+  background-color: transparent;
+}
+.card-body-active{
+  margin-left: 50px;
+  color: #fff;
+  font-size: 20px;
+  background-color: transparent;
+}
+.card-logo{
+  margin-top: 30px;
+margin-left: 16px;
+
+filter: invert(32%) sepia(77%) saturate(7471%) hue-rotate(354deg) brightness(91%) contrast(94%);
+}
+.card-logo1{
+  
+  margin-top: 30px;
+  margin-left: 16px;
+ 
+}
+.fa-arrow-right{
+  background-color: transparent;
+}
+.know-more{
+  font-size:20px;
+  margin-left: 50px;
+  margin-top: 10px;
+  background-color: transparent;
+  color:#E21717;
+  font-weight: 600;
+}
+.second-section{
+  display: flex;
+  
+}
+.left-sec{
+ position: absolute;
+ top:1150px;
+ left: 320px;
+  color:#fff;
+  background-color: transparent;
+}
+.card-head-actives{
+  background-color: transparent;
+  color:#E21717;
+  text-indent:0.2em;
+  font-size: 150px;
+  font-weight: bolder;
+}
+.desc{
+  background-color: transparent;
+  font-size: 27px;
+  font-weight: bold;
+}
+.right-sec{
+  position: absolute;
+  left:570px;
+  top:1120px;
+  background-color: transparent;
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.right-sec .card{
+ background-color: #3e3e3e;
+  height: 120px;
+  margin:10px;
+  border-radius: 0% !important;
+}
+.right-sec .card .card-head-active{
+  font-size: 40px;
+}
