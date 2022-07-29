@@ -29,6 +29,8 @@ nav{
     font-weight: 300;
 }
 .logo{
+  background-color: transparent;
+  filter: invert(28%) sepia(82%) saturate(2017%) hue-rotate(343deg) brightness(82%) contrast(92%);
     margin-top: 25px;
     margin-left: 95px;
 
@@ -409,4 +411,44 @@ align-items: center;
 .left-fd-section h5{
   background-color: transparent;
   color:#fff;
+}
+footer{
+  display: flex;
+  align-items: center;
+  background-color: #3e3e3e;
+  position: absolute;
+  width: 100%;
+  top:3200px;
+}
+.fa-brands{
+  background-color: transparent;
+  color:#fff;
+  font-size: 20px;
+  margin-right: 30px;
+
+}
+.brand-section{
+  margin-left: 550px;
+
+  background-color: transparent;
+}
+.footer-items{
+ margin-top: -111px;
+ margin-left: -250px;
+  background-color: transparent;
+}
+.footer-items ul{
+  display: flex;
+  white-space: nowrap;
+  background-color: transparent;
+  list-style-type:none;
+}
+.footer-items ul li a{
+  background-color: transparent;
+  color:#fff;
+  text-decoration: none;
+}
+.footer-items ul li{
+  margin-right: 20px;
+  background-color: transparent;
 }
