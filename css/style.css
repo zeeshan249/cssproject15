@@ -398,6 +398,34 @@ margin-top: 10px;
     color:#fff;
   }
 
+
+
+  .footer {
+    position:absolute;
+    top:3200px;
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    padding: 60px;
+    height: 100px;
+    width:100%;
+}
+.footer .footer-logo img{
+ height: 70px;
+ padding-bottom: 30px;
+}
+
+.social-icon {
+    padding-right: 29px;
+    margin-left: 500px;
+
+}
+
+.social-icon i {
+  color: #fff;
+  padding-right: 29px;
+    align-items: center;
+   
+}
   
     
    @media screen and (max-width:998px) {
@@ -484,7 +512,9 @@ margin-top: 10px;
     margin-left: 0px;
     margin-top: 10px;
   }
-
+.footer{
+  display:none;
+}
 
   
    }
