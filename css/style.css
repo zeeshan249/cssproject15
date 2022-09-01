@@ -368,6 +368,7 @@ margin-top: 10px;
     position: absolute;
     top:2800px;
     padding:100px;
+    width: 150vh;
   }
   .right-fd-section{
     background-color: transparent;
@@ -396,6 +397,8 @@ margin-top: 10px;
     background-color: transparent;
     color:#fff;
   }
+
+  
     
    @media screen and (max-width:998px) {
 
@@ -469,7 +472,18 @@ margin-top: 10px;
   .featured .right-f-section{
     display: none;
   }
-
+   
+  .see-more{
+    top:4400px;
+    left:30px;
+    flex-direction: column;
+    margin-left: 0px;
+    width: 70vh;
+  }
+  .right-fd-section button{
+    margin-left: 0px;
+    margin-top: 10px;
+  }
 
 
   
