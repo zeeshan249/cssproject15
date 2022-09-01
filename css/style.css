@@ -292,6 +292,110 @@ margin-top: 10px;
     margin-left: 30px;
   }
   
+
+  .featured{
+    margin-top: 50px;
+    display:flex;
+    color:#fff;
+  align-items: center;
+     width: 70%;
+  
+    position: absolute;
+    left: 330px;
+   
+  }
+  
+  .right-f-section button{
+  
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 380px;
+    background: #cb2c2c;
+    padding: 10px 40px 10px 40px;
+    border: 2px solid #cb2c2c;
+    font-weight: normal;
+    text-transform: uppercase;
+  
+  }
+  .left-f-section h3{
+    font-size: 35px;
+    font-weight: 900;
+  }
+  .left-f-section h5{
+    font-weight: normal;
+   
+    margin-top: 12px;
+  }
+  .more-cards{
+    display: flex;
+    position: absolute;
+    top:100px;
+    left: 0px;
+    flex-wrap: wrap;
+  }
+  .more-cards h5{
+    margin-top: 50px;
+    font-size: 20px;
+  }
+  .card-project{
+    margin:70px 30px 30px 0px;
+    background-color: #282828;
+    width:470px;
+    height: 340px;
+  }
+  .card-project img{
+    margin-top: 60px;
+    margin-left: 30px;
+  }
+  
+  .know-more-proj{
+    font-size:20px;
+  
+   
+    background-color: transparent;
+    color:#E21717;
+    font-weight: 600;
+  }
+  .card-project-sd{
+    padding:80px
+  }
+  .see-more{
+    background-color: #3e3e3e;
+    display: flex;
+    margin-top: -40px;
+    margin-left: 200px;
+    align-items: center;
+    position: absolute;
+    top:2800px;
+    padding:100px;
+  }
+  .right-fd-section{
+    background-color: transparent;
+  }
+  .right-fd-section button{
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 220px;
+    background: #cb2c2c;
+    padding: 10px 40px 10px 40px;
+    border: 2px solid #cb2c2c;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+  .see-more .left-fd-section{
+    background-color: transparent;
+  
+  }
+  .left-fd-section h3{
+    font-size: 30px;
+    background-color: transparent;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .left-fd-section h5{
+    background-color: transparent;
+    color:#fff;
+  }
     
    @media screen and (max-width:998px) {
 
@@ -352,12 +456,13 @@ margin-top: 10px;
     flex-direction: column;
   }
 
-
-.featured .container{
+  .more-cards{
+    top:1722px;
+    left: -180px;
+  }
+  .featured .left-f-section{
     display: none;
-}
-
-
+  }
 
 
   
